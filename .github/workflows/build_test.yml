@@ -25,6 +25,6 @@ jobs:
     - name: Execute npm install
       run: npm ci
     - name: Execute install audit
-      run: npm npm audit fix --force
+      run: npm audit fix --force
     - name: Execute integration tests
       run: npm test
