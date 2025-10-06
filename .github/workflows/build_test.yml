@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Execute npm install
-      run: npm install
+      run: npm ci
     - name: Execute install audit
       run: npm audit
     - name: Execute integration tests
